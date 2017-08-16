@@ -1,0 +1,12 @@
+# List of owner/repo repository names to deploy to
+repositories:
+  - liuhy-haplox/licensee
+  - liuhy-haplox/gman
+  - liuhy-haplox/wordpress-to-jekyll-exporter
+  - liuhy-haplox/wp-document-revisions
+  - liuhy-haplox/jekyll-auth
+  - liuhy-haplox/jekyll-style-guide
+  - liuhy-haplox/jekyll-readme-index
+  - liuhy-haplox/jekyll-optional-front-matter
+  - liuhy-haplox/jekyll-titles-from-headings
+  - liuhy-haplox/jekyll-relative-links
