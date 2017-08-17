@@ -1,0 +1,10 @@
+build/index.html build/script.js
+
+build/index.html: src/index.html build
+	cp $ 001
+
+build/script.js: src/script.js build .babelrc node_modules/.bin/babel
+	time node_modules/.bin/babel -o $ 001
+
+build:
+	mkdir build 001
