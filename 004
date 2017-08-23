@@ -1,0 +1,4 @@
+java -Xmx10g -jar /tools/GATK/GenomeAnalysisTK.jar \
+    -R /haplox/ref/GATK/ucsc.hg19/ucsc.hg19.fasta \
+    -T CountBases \
+    -I /haplox/users/liuhaoyuan/rawout/170731_NB551106_0040_AH7CKNBGX3/S015_20170731019-7_ffpedna_hap-research-0317_4322/S015_20170731019-7_ffpedna_hap-research-0317_4322_rg.bam
